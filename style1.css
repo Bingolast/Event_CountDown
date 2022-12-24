@@ -36,11 +36,13 @@ body{
     fill: transparent;
     stroke-width: 8;
     stroke: #282828;
+    stroke-linecap: round;
     transform: translate(5px,5px);
 }
 #time .circle svg circle:nth-child(2){
     stroke: var(--clr);
     stroke-dasharray: 440;
+    stroke-dashoffset: 440;
 }
 #time div{
     position: absolute;
@@ -54,7 +56,7 @@ body{
     transform: translateX(-40%) translateY(-10px);
     font-size: 0.35em;
     font-weight: 300;
-    letter-spacing:01em;
+    letter-spacing:0.1em;
     text-transform: uppercase;
 }
 #time .dots{
