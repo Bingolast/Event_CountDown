@@ -7,6 +7,9 @@
 a {
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 i {
   font-style: normal;
   background-color: rgb(18, 20, 20);
@@ -22,7 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
   color: #d1d05c;
   flex-direction: column;
   background-color: rgb(31, 32, 32);
